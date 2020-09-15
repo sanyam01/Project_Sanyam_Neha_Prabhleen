@@ -20,6 +20,15 @@ private double fahrenheitToCelsius(double F){
 	System.out.println(F + " degree Fahrenheit is equal to " + celsius + " in Celsius");
 	return celsius;
 }
+
+private double kilometersToMiles(double km) {
+	
+	double miles = km * 0.62137;
+	return miles;
+	
+}
+
+
 public static void main(String[] args) {
 //TODO: The first student will implement this method.
 	Converter obj = new Converter();
