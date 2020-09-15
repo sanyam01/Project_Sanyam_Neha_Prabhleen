@@ -1,7 +1,7 @@
 public class Converter {
 //Your names go here:
 /*
-* @Author: Name of the first student
+* @Author: Sanyam
 * Neha Singh
 * Prabhleen Kaur
 *
@@ -21,7 +21,10 @@ private double fahrenheitToCelsius(double F){
 }
 public static void main(String[] args) {
 //TODO: The first student will implement this method.
+	Converter obj = new Converter();
 // Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
+	obj.celsiusToFahrenheit(180);
 // Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
+	obj.fahrenheitToCelsius(250);
 }
 }
