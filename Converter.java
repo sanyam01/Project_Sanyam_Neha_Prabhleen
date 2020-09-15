@@ -36,5 +36,8 @@ public static void main(String[] args) {
 	obj.celsiusToFahrenheit(180);
 // Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
 	obj.fahrenheitToCelsius(250);
+	
+	double miles = obj.kilometersToMiles(30);
+	System.out.println("Dis in miles " +  miles);
 }
 }
