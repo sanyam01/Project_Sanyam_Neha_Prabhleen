@@ -3,12 +3,15 @@ public class Converter {
 /*
 * @Author: Name of the first student
 * Neha Singh
-* Name of the third student
+* Prabhleen Kaur
 *
 */
 private double celsiusToFahrenheit(double C){
 // TODO: The third student will implement this method
-return 0;
+	double fahrenheit = (9.0/5.0)*C + 32;
+    System.out.println("Temperature in Fahrenheit is : "+fahrenheit);
+	return fahrenheit;
+
 }
 private double fahrenheitToCelsius(double F){
 // TODO: The second student will implement this method
